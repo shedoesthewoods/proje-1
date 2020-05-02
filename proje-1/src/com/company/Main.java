@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args){
         Scanner dosya = null;
         try {
-            dosya = new Scanner(new FileInputStream("C:\\Users\\Hp\\IdeaProjects\\proje-1\\src\\com\\company\\Firma.txt"));
+            dosya = new Scanner(new FileInputStream("Firma.txt"));
             System.out.println("Dosyadan alınan müşteriler ile ilgili bilgiler yazdırılıyor...");
         }catch(FileNotFoundException e) {
             System.out.println("Dosya bulunamadı.");
